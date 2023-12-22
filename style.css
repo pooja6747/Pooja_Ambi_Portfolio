@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0
+}
+
+body {
+    background-color: #131313 !important;
+}
+/* INDEX PAGE */
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 200;
+    font-size: 2rem;
+    color: rgb(228, 166, 9);
+}
+
+#wrap {
+    text-align: center;
+}
+
+.btn-slide {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    background: #131313;
+    border: 2px solid rgb(252, 195, 52);
+    margin: 10px;
+    transition: .5s;
+    margin-right: 2rem;
+}
+
+.btn-slide span.circle {
+    display: block;
+    background-color: rgb(252, 195, 52);
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.btn-slide span.title, .btn-slide span.title-hover {
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(252, 195, 52);
+    transition: .5s;
+}
+
+.btn-slide span.title-hover {
+    color: #fff;
+}
+.btn-slide span.title-hover {
+    left: 80px;
+    opacity: 0;
+}
+
+.btn-slide span.title:hover{
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(252, 195, 52);
+    transition: .5s;
+}
+
+.pex {
+    flex: 1;
+}
+
+.about{
+    padding-top: 6rem;
+}
+
+.text2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    color: white;
+}
+
+.text {
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 4rem;
+    color: rgb(228, 166, 9);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(13) infinite alternate, blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+}
+
+
+/* ABOUT PAGE */
+
+.head1 {
+    font-size: 4rem;
+    color: #fffbfb;
+}
+
+.text4 {
+    color: green;
+}
+
+.personal2 {
+    padding-top: 7rem;
+    padding-left: 3rem;
+}
+
+.borders {
+    border-left: 1px solid rgb(248, 205, 15);
+    margin-left: 6.5rem;
+}
+
+.year {
+    border-radius: 5rem;
+    background-color: #414345;
+    width: 8rem;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.per {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.field {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #0d6efd;
+    transition: width .6s ease;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 3rem;
+    right: 0;
+    background-color: rgba(238, 174, 11, 0.795);
+    border-radius: 2rem;
+    overflow: hidden;
+    width: 81%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.fa-graduation-cap{
+    padding-left: 5rem;
+    color: #fff;
+}
+
+/* PORTFOLIO */
+.box1 a img {
+    border-radius: 2rem;
+    height: 30vh;
+    margin-top: 5rem;
+    display: block;
+}
+
+.overlay1 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(238, 174, 11, 0.795);
+    border-radius: 2rem;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+/* CONTACT PAGE */
+#ip1 {
+    border-radius: 25px;
+    border: 2px solid rgb(129, 128, 128);
+    background-color: #131313;
+    padding: 20px;
+    width: 294px;
+    height: 15px;
+}
+
+#subject {
+    border-radius: 25px;
+    border: 2px solid rgb(129, 128, 128);
+    background-color: #131313;
+    padding: 20px;
+    width: 700px;
+    margin-top: 3rem;
+    height: 200px;
+}
